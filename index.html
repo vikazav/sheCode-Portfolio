@@ -5,74 +5,69 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="SheCodes - Portfolio of frontend developer from Europe.">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="style.css">
    <title>SheCodes - Portfolio-Home</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg bg-light mb-5 sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html" title="home page">Victoria Zavertaliuk</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html" title="home page">Home</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link" href="about.html" title="about page">About me</a>
-             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="works.html" title="works page">Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="works.html#contact" title="Contact page">Contact me</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+   <header class="container">
+      <nav class="d-flex justify-content-between align-middle">
+      <a href="index.html"><img class ="img-fluid logo" src="my_logo.png" alt="logo"></a>
+         <ul>
+            <li class="me-3"><a class="active" href="index.html" title="home page">Home</a></li>
+            <li class="me-3"><a href="about.html" title="About page">About</a></li>
+            <li class="me-3"><a href="works.html" title="Work page">Work</a></li>
+            <li class="me-3"><a href="contact.html" title="Contact page">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+ 
     <div class="hero">
    <h2>👋 Hello I am</h2>
    <h1>Victoria Zavertaliuk</h1>
-   <h3 class="mb-5">Front-end developer, based in Europe</h3>
+   <h3 class="mb-5 subtytle">Front-end developer, based in Europe</h3>
    <div class="links mb-sm-5">
 <a href="works.html#contact" class="link-button">Contact me</a>
-<a href="works.html" title="about page" class="link-button">Works</a>
 </div>
 </div>
+<p class="text-center m-4">Check out some of my featured projects below</p>
 <div class="container">
    <div class="row mb-sm-5">
-      <div class="col-sm-6">
-         <img src="https://31ukq.codesandbox.io/images/yoga.png" alt="yoga class" class="img-fluid d-none d-sm-block">
+      <div class="col-lg-6">
+         <img src="https://31ukq.codesandbox.io/images/yoga.png" alt="yoga class" class="img-fluid d-none d-lg-block">
       </div>
-      <div class="col-sm-6">
-         <h2 class="pt-3 text-center text-md-start">Yoga app</h2>
+      <div class="col text-center text-md-start">
+         <h2 class="pt-3 mb-5 text-center text-md-start">Yogurt Landing Page</h2>
          <p class="mb-3 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque fuga neque possimus quisquam esse, enim quae aliquid pariatur magni maiores eveniet adipisci aperiam beatae tenetur facere cupiditate? Animi, qui.</p>
-         <a href="#" class="project-link d-block link-button text-center text-md-start d-md-inline-block">Launch Yoga App</a>
+         <a href="#" class="project-link d-inline-block project-button text-center text-md-start">Learn more</a>
       </div>
    </div>
    <div class="row mb-sm-5">
-      <div class="col-sm-6">
-         <h2 class="pt-3 text-center text-md-start">Weather app</h2>
+      <div class="col text-center text-md-start">
+
+         <h2 class="pt-3 mb-5 text-center text-md-start">Weather app</h2>
          <p class="mb-3 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque fuga neque possimus quisquam esse, enim quae aliquid pariatur magni maiores eveniet adipisci aperiam beatae tenetur facere cupiditate? Animi, qui.</p>
-         <a href="#" class="project-link d-block link-button text-center text-md-start d-md-inline-block">Launch Weather App</a>
+         <a href="#" class="project-link d-inline-block project-button text-center text-md-start">Learn more</a>
       </div>
-      <div class="col-sm-6">
-         <img src="https://31ukq.codesandbox.io/images/weather.png" alt="weather app" class="img-fluid d-none d-sm-block">
+      <div class="col-lg-6">
+         <img src="https://31ukq.codesandbox.io/images/weather.png" alt="weather app" class="img-fluid d-none d-lg-block">
       </div>
    </div>
    <div class="row mb-sm-5 mb-5">
-      <div class="col-sm-6">
-         <img src="https://31ukq.codesandbox.io/images/yogurt.png" alt="yogurt app" class="img-fluid d-none d-sm-block">
+      <div class="col-lg-6">
+         <img src="https://31ukq.codesandbox.io/images/yogurt.png" alt="yogurt app" class="img-fluid d-none d-lg-block">
       </div>
-      <div class="col-sm-6">
-         <h2 class="pt-3 text-center text-md-start">Yogurt app</h2>
+      <div class="col text-center text-md-start">
+
+         <h2 class="pt-3 mb-5 text-center text-md-start">Yogurt app</h2>
          <p class="mb-3 text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi atque fuga neque possimus quisquam esse, enim quae aliquid pariatur magni maiores eveniet adipisci aperiam beatae tenetur facere cupiditate? Animi, qui.</p>
-         <a href="#" class="project-link d-block link-button text-center text-md-start d-md-inline-block">Launch Yogurt App</a>
+         <a href="#" class="project-link d-inline-block project-button text-center text-md-start">Learn more</a>
       </div>
    </div>
 </div>
