@@ -21,6 +21,9 @@ h1{
 h2 {
    font-size: 64px;
 } 
+h4 {
+   font-size: 48px;
+}
 
 .hero {
    text-align: center;
@@ -57,6 +60,7 @@ p {
    justify-content: center;
 }
 .link-button {
+   display: block;
    color: #fff;
    background-color: var(--primary-color);
    font-size: 16px;
@@ -128,6 +132,40 @@ li a:hover,.active {
 .project-button:hover {
    color: #000;
 }
+footer {
+   padding: 20px;
+}
+.contact-box {
+   background-color: var(--secondary-color);
+   padding: 20px 120px;
+}
+
+.email-link {
+color:#000;
+text-decoration: none;
+font-size: 24px;
+}
+.email-link:hover {
+color: var(--primary-color);
+text-decoration: none;
+}
+.social-links a {
+   font-size: 18px;
+   margin: 0 20px;
+   color: var(--primary-color);
+   background-color: var(--secondary-color);
+   padding: 10px 15px;
+   border-radius: 50%;
+   transition: all 100ms ease-in-out;
+}
+.social-links a:hover {
+color:#fff;
+background-color: var(--primary-color);
+}
+.source-link {
+   font-size: 16px;
+}
+
 @media(max-width:990px) {
    .container {
       padding: 0px;
@@ -139,4 +177,9 @@ li a:hover,.active {
    h2 {
       font-size: 54px;
    }
+   .contact-box {
+      padding: 30px 60px;
+   }
 }
+
+
